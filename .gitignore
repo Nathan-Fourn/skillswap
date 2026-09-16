@@ -1,0 +1,19 @@
+# Dépendances
+/vendor/
+/node_modules/
+
+# Configuration locale et secrets
+.env.local
+.env.*.local
+
+# Fichiers d'éditeur et d'OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ne jamais versionner : révèle la configuration du serveur
+phpinfo.php
+
+# Symfony (à partir de la séance 6)
+/var/
